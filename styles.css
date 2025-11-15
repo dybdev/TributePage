@@ -1,0 +1,50 @@
+/* Center page content */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+/* Title */
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Image div */
+#img-div {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Required image properties */
+#image {
+    display: block;        /* Requirement */
+    max-width: 100%;       /* Requirement */
+    height: auto;          /* Requirement */
+    margin: 0 auto;        /* Center the image */
+    border-radius: 8px;
+}
+
+/* Caption styling */
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #444;
+}
+
+/* Tribute text */
+#tribute-info {
+    max-width: 700px;
+    margin: 25px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Link styling */
+#tribute-link {
+    color: #0057ff;
+    font-weight: bold;
+}
